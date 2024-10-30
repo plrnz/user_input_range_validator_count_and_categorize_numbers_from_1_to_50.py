@@ -37,4 +37,9 @@ while True:
             result_41_50 += 1
     else:
         break
-    
+
+print("1 - 10 =", result_1_10)
+print("11 - 20 =", result_11_20)
+print("21 - 30 =", result_21_30)
+print("31 - 40 =", result_31_40) 
+print("41 - 50 =", result_41_50)
