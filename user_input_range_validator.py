@@ -18,4 +18,7 @@ while True:
         number_range = int(number_range.isdigit)
     else:
         continue
+
+        if 1 <= number_range <= 50:
+            
     
