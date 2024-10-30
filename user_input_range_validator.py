@@ -4,6 +4,12 @@
 # 3. Counting each range
 # 4. Display the results
 
+# Counters for each range
+result_1_10 = 0
+result_11_20 = 0
+result_21_30 = 0
+result_31_40 = 0 
+result_41_50 = 0
+
 while True:
-    number_range = int(input("PLease enter a number ranging from 1 to 50: "))
-    
+    number_range = input("PLease enter a number ranging from 1 to 50: ")
