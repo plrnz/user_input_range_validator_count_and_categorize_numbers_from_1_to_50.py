@@ -13,3 +13,9 @@ result_41_50 = 0
 
 while True:
     number_range = input("PLease enter a number ranging from 1 to 50: ")
+
+    if number_range.isdigit():
+        number_range = int(number_range.isdigit)
+    else:
+        continue
+    
