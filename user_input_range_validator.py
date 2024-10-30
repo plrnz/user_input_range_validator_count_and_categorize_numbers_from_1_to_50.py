@@ -12,15 +12,19 @@ result_31_40 = 0
 result_41_50 = 0
 
 while True:
+    # User Input
     number_range = input("PLease enter a number ranging from 1 to 50: ")
 
+    # Check if the input is a number
     if number_range.isdigit():
         number_range = int(number_range)
     else:
         continue
 
+    # Check if the input is in the valid range
     if 1 <= number_range <= 50:
 
+        # Count the number in the correct range
         if 1 <= number_range <= 10:
             result_1_10 += 1
         
@@ -36,8 +40,9 @@ while True:
         elif 41 <= number_range <= 50:
             result_41_50 += 1
     else:
-        break
+        break # If the input is outside the 1-50 range, break the loop
 
+# Display the counts for each range
 print("1 - 10 =", result_1_10)
 print("11 - 20 =", result_11_20)
 print("21 - 30 =", result_21_30)
